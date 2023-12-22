@@ -1,0 +1,245 @@
+/* General Styles */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f8fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+main {
+  max-width: 1440px;
+  padding-bottom: 50px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  font-size: 14px;
+  align-items: center;
+}
+
+#logo {
+  height: 39px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 42px;
+}
+
+.Hyperlink_Container a {
+  text-decoration: none;
+  color: #1d2c3c;
+  font-weight: 700;
+}
+
+.cta-btn {
+  padding: 11px 20px;
+  border-radius: 6px;
+  border: 2px solid #646e7a;
+}
+
+/* Horizontal Rule Styles */
+hr {
+  width: 100%;
+  height: 1px;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #1d2c3c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+}
+
+.subContainer1 form p {
+  font-weight: 700;
+}
+
+p span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #548bc5;
+  border-radius: 50%;
+  text-align: center;
+  color: #548bc5;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+/* Main Container Styles */
+.main_Container {
+  display: flex;
+  justify-content: center;
+  width: 892px;
+  margin: 50px auto;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05),
+    0px 15px 35px 0px rgba(43, 64, 78, 0.1);
+}
+
+/* Subcontainer Styles */
+.subContainer1 {
+  padding: 40px;
+  flex: 2;
+}
+
+.basicInfo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  height: 40px;
+  width: 227px;
+  padding: 10px 13px;
+  border: none;
+  background: #edeff2;
+  margin-top: 7px;
+}
+
+.email input {
+  width: 370px;
+  margin-top: 7px;
+}
+
+.creditCard input {
+  margin-top: 7px;
+  width: 100%;
+}
+
+.submit {
+  width: 100%;
+  border-radius: 5px;
+  background: #038e7d;
+  color: white;
+}
+
+.information2 {
+  margin-top: 0px;
+}
+
+.creditCard {
+  width: 100%;
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  background: #f5f7fa;
+  margin: 30px 0;
+  padding: 0;
+}
+
+.hr_details {
+  width: 100%;
+  height: 1px;
+  background: #979797;
+  margin: 30px 0;
+}
+header hr {
+  width: 95%;
+  margin: 0 auto;
+  height: 1px;
+  background: #f5f7fa;
+}
+
+.text-support {
+  margin: 10px auto;
+  text-align: left;
+  max-width: 300px;
+  font-size: 14px;
+}
+
+.stripe {
+  display: block;
+  margin: 0 auto;
+}
+
+.subContainer2 {
+  background-color: #1179bf;
+  padding: 46px;
+  flex: 1;
+  width: 312px;
+  color: white;
+}
+
+#price {
+  font-size: 60px;
+  line-height: 0;
+  margin: 30px 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+#price em {
+  font-size: 18px;
+}
+
+#price sup {
+  font-size: 20px;
+}
+
+.subContainer2 a {
+  text-decoration: underline;
+  color: white;
+}
+
+.price-attached-description {
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.aside-img-profile img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.aside-img-profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  line-height: 0;
+}
+
+.info-One,
+.info-Three,
+.info-Two {
+  margin-bottom: 40px;
+}
+
+/* Resetting Line Height for Normal Text */
+.info-Two p {
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #636b6f;
+}
